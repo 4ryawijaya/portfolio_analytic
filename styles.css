@@ -67,3 +67,12 @@ header nav a {
         grid-gap: 20px;
     }
 }
+
+/* Add styles for the about section */
+#about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify; /* Align text justified for better readability */
+}
+
