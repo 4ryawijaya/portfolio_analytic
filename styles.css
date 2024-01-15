@@ -45,15 +45,25 @@ header nav a {
 
 .portfolio-item {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .portfolio-item img {
     width: 100%;
     height: auto;
+    border: 1px solid #ddd; /* Add a light border to images for separation */
+    border-radius: 4px; /* Optional: Rounded corners for images */
 }
 
 .portfolio-item h3 {
     margin: 10px 0;
 }
 
-/* Additional styles as needed */
+/* Responsive design for the portfolio grid */
+@media (min-width: 600px) {
+    #portfolio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns in a row */
+        grid-gap: 20px;
+    }
+}
