@@ -36,7 +36,21 @@ header nav a {
     margin-top: 20px;
 }
 
-/* Add styles for portfolio grid layout */
+/* Add or adjust styles as needed */
+body {
+    padding-top: 56px; /* Adjust for the fixed navbar height */
+}
+
+#portfolio, #about {
+    margin-top: 20px; /* Add space between content and navbar */
+}
+
+footer {
+    background-color: #f8f9fa; /* Light background for the footer */
+    padding: 10px;
+}
+
+
 #portfolio {
     max-width: 1000px;
     margin: 20px auto;
